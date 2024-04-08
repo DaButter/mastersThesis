@@ -1,28 +1,32 @@
+clear all, clc, format compact
+%% Note
 % Here are gas cost measurements of MultiSigWallet smart contract
 % deployment on the Ethereum blockchain depening on the owner count
 
+
 %% Data
 owner_count = [1:20];
-gas_cost = [965877
-1011800 
-1057723
-1103646
-1149569
-1195492
-1241415
-1287338
-1333237
-1379160
-1425083
-1471006
-1516929
-1562852
-1608775
-1654698
-1700621
-1746544
-1792467
-1838390
+gas_cost = [
+960883
+1006806 
+1052729
+1098652
+1144575
+1190498
+1236421
+1282344
+1328267
+1374190
+1420113
+1466036
+1511959
+1557882
+1603805
+1649728
+1695651
+1741574
+1787497
+1833420
 ];
 
 
@@ -35,3 +39,7 @@ xlim([1, 20]), xticks(1:20)
 title('Vied? l?guma izvietošanas g?zes pat?ri?š atkar?b? no l?guma ?pašnieku skaita')
 xlabel('?pašnieku skaits')
 ylabel('G?zes pat?ri?š')
+
+% title('Vieda liguma izvietosanas gazes paterins atkariba no liguma ipasnieku skaita')
+% xlabel('?pašnieku skaits')
+% ylabel('G?zes pat?ri?š')
