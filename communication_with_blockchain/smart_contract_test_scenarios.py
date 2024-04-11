@@ -72,10 +72,6 @@ if __name__ == "__main__":
         "0xcda01c2ac1d8fe9f591005e33513d571f8f06ef45ba8cd15089b8916b19a183a"
     ]
 
-    # For other exp
-    # accnt_addr = ["0x6C0CfBD369A96ecAfE9955c7c1721Ee3C6a83165"]
-    # accnt_priv_key = ["0x5b5e33d6701f50997c3a95b2f19e9d6cb1d5b5f622c1371b32a10a30fb718cb5"]
-
     # Transfer funds to the smart contract
     deposit_count = 9
     gas_usage = []
